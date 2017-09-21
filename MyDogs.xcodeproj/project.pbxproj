@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		FA375BBB1F7056F90004E6C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA375BBA1F7056F90004E6C6 /* AppDelegate.swift */; };
-		FA375BBD1F7056F90004E6C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA375BBC1F7056F90004E6C6 /* ViewController.swift */; };
 		FA375BC01F7056F90004E6C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA375BBE1F7056F90004E6C6 /* Main.storyboard */; };
 		FA375BC31F7056F90004E6C6 /* MyDogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA375BC11F7056F90004E6C6 /* MyDogs.xcdatamodeld */; };
 		FA375BC51F7056F90004E6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA375BC41F7056F90004E6C6 /* Assets.xcassets */; };
 		FA375BC81F7056F90004E6C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA375BC61F7056F90004E6C6 /* LaunchScreen.storyboard */; };
 		FA375BD31F7056F90004E6C6 /* MyDogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA375BD21F7056F90004E6C6 /* MyDogsTests.swift */; };
 		FA375BDE1F7056F90004E6C6 /* MyDogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA375BDD1F7056F90004E6C6 /* MyDogsUITests.swift */; };
+		FA375BEC1F705BFA0004E6C6 /* DogsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA375BEB1F705BFA0004E6C6 /* DogsCollectionViewController.swift */; };
+		FA375BEE1F705C540004E6C6 /* AddDogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA375BED1F705C540004E6C6 /* AddDogViewController.swift */; };
+		FA375BF01F705C760004E6C6 /* EditDogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA375BEF1F705C760004E6C6 /* EditDogViewController.swift */; };
+		FA375BF21F705E370004E6C6 /* DogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA375BF11F705E370004E6C6 /* DogCell.swift */; };
+		FA375BF41F7070280004E6C6 /* EditDogDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA375BF31F7070280004E6C6 /* EditDogDelegate.swift */; };
+		FA375BF61F707F630004E6C6 /* AddDogDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA375BF51F707F630004E6C6 /* AddDogDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,6 @@
 /* Begin PBXFileReference section */
 		FA375BB71F7056F90004E6C6 /* MyDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA375BBA1F7056F90004E6C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA375BBC1F7056F90004E6C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA375BBF1F7056F90004E6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA375BC21F7056F90004E6C6 /* MyDogs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDogs.xcdatamodel; sourceTree = "<group>"; };
 		FA375BC41F7056F90004E6C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		FA375BD91F7056F90004E6C6 /* MyDogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDogsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA375BDD1F7056F90004E6C6 /* MyDogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDogsUITests.swift; sourceTree = "<group>"; };
 		FA375BDF1F7056F90004E6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA375BEB1F705BFA0004E6C6 /* DogsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogsCollectionViewController.swift; sourceTree = "<group>"; };
+		FA375BED1F705C540004E6C6 /* AddDogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDogViewController.swift; sourceTree = "<group>"; };
+		FA375BEF1F705C760004E6C6 /* EditDogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDogViewController.swift; sourceTree = "<group>"; };
+		FA375BF11F705E370004E6C6 /* DogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogCell.swift; sourceTree = "<group>"; };
+		FA375BF31F7070280004E6C6 /* EditDogDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDogDelegate.swift; sourceTree = "<group>"; };
+		FA375BF51F707F630004E6C6 /* AddDogDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDogDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +109,13 @@
 		FA375BB91F7056F90004E6C6 /* MyDogs */ = {
 			isa = PBXGroup;
 			children = (
+				FA375BEB1F705BFA0004E6C6 /* DogsCollectionViewController.swift */,
+				FA375BED1F705C540004E6C6 /* AddDogViewController.swift */,
+				FA375BEF1F705C760004E6C6 /* EditDogViewController.swift */,
+				FA375BF11F705E370004E6C6 /* DogCell.swift */,
+				FA375BF31F7070280004E6C6 /* EditDogDelegate.swift */,
+				FA375BF51F707F630004E6C6 /* AddDogDelegate.swift */,
 				FA375BBA1F7056F90004E6C6 /* AppDelegate.swift */,
-				FA375BBC1F7056F90004E6C6 /* ViewController.swift */,
 				FA375BBE1F7056F90004E6C6 /* Main.storyboard */,
 				FA375BC41F7056F90004E6C6 /* Assets.xcassets */,
 				FA375BC61F7056F90004E6C6 /* LaunchScreen.storyboard */,
@@ -265,9 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA375BBD1F7056F90004E6C6 /* ViewController.swift in Sources */,
+				FA375BEC1F705BFA0004E6C6 /* DogsCollectionViewController.swift in Sources */,
+				FA375BF41F7070280004E6C6 /* EditDogDelegate.swift in Sources */,
 				FA375BC31F7056F90004E6C6 /* MyDogs.xcdatamodeld in Sources */,
+				FA375BF21F705E370004E6C6 /* DogCell.swift in Sources */,
 				FA375BBB1F7056F90004E6C6 /* AppDelegate.swift in Sources */,
+				FA375BF61F707F630004E6C6 /* AddDogDelegate.swift in Sources */,
+				FA375BF01F705C760004E6C6 /* EditDogViewController.swift in Sources */,
+				FA375BEE1F705C540004E6C6 /* AddDogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
